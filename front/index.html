@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Usuarios</h1>
+        <a href="./pages/create.html" class="btn add-btn">Añadir Usuario</a>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Profile Picture</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyUsers">
+                <!-- Aquí se cargarán los usuarios dinámicamente -->
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

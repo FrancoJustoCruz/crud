@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(12, 26, 212);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.add-btn {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    padding: 8px 16px; /* Ajusta el padding según sea necesario */
+    border: none;
+    border-radius: 20px; /* Hace que el botón sea redondeado */
+    background-color: #dc3545; /* Color de fondo rojo */
+    color: white; /* Color del texto */
+    font-size: 14px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Agrega transiciones suaves */
+
+    /* Estilos cuando se pasa el mouse sobre el botón */
+    &:hover {
+        background-color: #c82333; /* Cambia el color de fondo al pasar el mouse */
+        transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Cambia la sombra al pasar el mouse */
+    }
+}
+td {
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el texto verticalmente */
+}
